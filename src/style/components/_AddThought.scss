@@ -1,0 +1,63 @@
+.add_thought{
+    // border: solid black;
+    margin-top: 80px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article_fields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        width: 90%;
+        padding: 15px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.2rem;
+        outline-color: $l_main;
+    }
+
+    .fields{
+        margin-bottom: 15px;
+    }
+
+    textarea{
+        width: 90%;
+        padding: 15px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.1rem;
+        outline-color: $l_main;
+        height: 250px;
+    }
+}
+
+.fields_comp{
+    margin-bottom: 15px;
+    input{
+        width: 90%;
+        padding: 10px 15px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.1rem;
+        outline-color: $l_main;
+    }
+}
+
+.post_article{
+    width : 15%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .post_btn{
+        padding: 10px 15px;
+        width: 90%;
+        background-color: $l_main;
+        color: white;
+        border: 1px solid $l_main;
+        cursor: pointer;
+        outline-color: $main;
+        font-size: 1.1rem;
+        
+    }
+}

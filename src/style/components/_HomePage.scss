@@ -1,12 +1,33 @@
 .home_page{
     // border: solid black;
-    margin-top: 80px;
+    margin-top: 60px;
     z-index: 10;
 }
 
 .upper_head{
     background-color: $l_main;
+    background-image: linear-gradient(-180deg, $main, $l_main);
     color: $main;
-    height: 150px;
+    height: 80px;
     width: 100%;
+    padding: 35px 0;
+}
+
+.site_name{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    // border: solid black;
+    height: 80px;
+    text-align: center;
+    color: white;
+
+    .name{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    .moto{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
 }

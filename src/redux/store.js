@@ -1,6 +1,16 @@
-import {createStore} from 'redux'
-import pageReducer from './Page/pageReducers'
+import {createStore , applyMiddleware} from 'redux'
+import thunk from "redux-thunk";
+import logger from 'redux-logger'
+import {composeWithDevTools} from 'redux-devtools-extension'
+import combined from './rootreducers';
+import {persistStore} from 'redux-persist'
 
-const store = createStore(pageReducer) 
+export  const store = createStore(
+    combined,
+    composeWithDevTools(
+        applyMiddleware(logger , thunk)
+    ) 
+)
 
-export default store
+export const persistor = persistStore(store)
+

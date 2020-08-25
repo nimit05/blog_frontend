@@ -1,0 +1,61 @@
+.signUp{
+    width: 40%;
+    margin-top: 80px;
+    // border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup_head{
+    width: 100%;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.su_ques{
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+    // border: solid black;
+    margin-bottom: 20px;
+    a{
+        color: $main;
+    }
+}
+
+.fill_info{
+    width: 70%;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: auto;
+    // border: solid black;
+    input{
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.2rem;
+        outline-color: $l_main;
+    }
+
+}
+
+.sub_btn{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+    button{
+        width: 100%;
+        padding: 10px 15px;
+        background-color: $l_main;
+        font-size: 1rem;
+        color: white;
+        border: 1px solid $l_main;
+        cursor: pointer;
+        outline-color: $main;
+    }
+
+    img{
+        height: 20px;
+    }
+}

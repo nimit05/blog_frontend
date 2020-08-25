@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    border: solid black;
+    // border: solid black;
     position: fixed;
     top: 0px;
     z-index: 100;
@@ -12,7 +12,7 @@
     margin-left: auto;
     padding: 10px;
     margin-right: auto;
-    border: solid black;
+    // border: solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,6 +39,14 @@
     
     .path{
         cursor: pointer;
+        color: $l_main;
+    }
+    .path:hover{
+        color: $main;
+    }
+    .current{
+        cursor: pointer;
+        color: $main;
     }
 
 }
