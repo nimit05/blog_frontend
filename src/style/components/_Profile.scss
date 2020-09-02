@@ -1,0 +1,45 @@
+.profile{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.profile_pic{
+    width: 100%;
+    background-color: #cbe4fb;
+    // opacity: 0.3;
+    // border: solid black;
+    height: 200px;
+
+    .info_bar{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid black;
+        height: 200px;
+    }
+
+    .pic{
+        width: 50%;
+        height: 60px;
+        padding: 30px 25%;
+        border: solid black;
+        text-align: center;
+        font-size: 1.8rem;
+        color: $main;
+        font-weight: 600;
+    }
+
+    .edit_pro{
+        margin-top: 30px;
+        margin-left: 85%;
+
+        button{
+            padding: 8px 15px;
+            cursor: pointer;
+            background-color: $l_main;
+            color: white;
+            border: 1px solid $l_main;
+            outline-color: $l_main;
+        }
+    }
+}

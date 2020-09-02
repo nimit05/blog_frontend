@@ -1,6 +1,6 @@
 .home_page{
     // border: solid black;
-    margin-top: 60px;
+    margin-top: 80px;
     z-index: 10;
 }
 
@@ -11,6 +11,27 @@
     height: 80px;
     width: 100%;
     padding: 35px 0;
+
+    .feed_head_out{
+        margin-top: 50px;
+        width: 50%;
+        min-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid $l_main;
+    }
+    .head_name{
+        padding: 5px;
+        cursor: pointer;
+        color: $l_main;
+        border-bottom: 1px solid $l_main;
+    }
+    .head_name_active{
+        padding: 5px;
+        cursor: pointer;
+        color: $main;
+        border-bottom: 1px solid $main;
+    }
 }
 
 .site_name{
@@ -29,5 +50,30 @@
     .moto{
         font-size: 0.9rem;
         font-weight: 500;
+    }
+}
+
+.feed_slider{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    // border: solid black;
+}
+
+.feed_head{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid $l_main;
+
+    .head_name{
+        width: 10%;
+        padding: 5px;
+        cursor : pointer;
+        color: $l_main;
+        margin-right: 5px;
+    }
+    .head_name:hover{
+        border-bottom: 1px solid $main;
+        color: $main;
     }
 }

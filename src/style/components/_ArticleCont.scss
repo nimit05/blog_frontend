@@ -1,0 +1,79 @@
+.article_cont{
+    width: 50%;
+    min-width: 500px;
+    // border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #BDBDBD;
+
+    .name_det{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        
+        // border: solid black;
+
+        .user_det{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 150px;
+            align-items: center;
+            // border: solid black;
+            min-width: 150px;
+            img{
+                height: 35px;
+            }
+            .date{
+                color: #BDBDBD;
+            }
+        }
+    }
+}
+
+.like_art{
+    padding: 2px 2%;
+    // border: solid red;
+    img{
+        height: 20px;
+        align-self: center;
+        cursor: pointer;
+        margin: auto;
+    }
+    .img{
+        background-color:unset;
+    }
+}
+
+.article_det{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    margin-top: 15px;
+
+    .title{
+        font-size: 1.6rem;
+    }
+    .des{
+        color:#BDBDBD;
+        font-size: 1.1rem;
+    }
+    .lowe_art_cont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+        color: $l_main;
+        .read{
+            cursor: pointer;
+        }
+        .tags{
+            cursor: pointer;
+        }
+    }
+}

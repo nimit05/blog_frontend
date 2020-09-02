@@ -28,10 +28,10 @@ import { bindActionCreators } from 'redux';
                         onClick = {() => this.props.PageLink('home')}>Home</div>
                         <div className = {this.props.page == 'add_thought' ? 'current' : 'path'} 
                         onClick = {() => this.props.PageLink('add_thought')}>New Thought</div>
-                        <div className = {this.props.page == 'signin' ? 'current' : 'path'} 
-                         >{this.props.username}</div>
-                        <div className = {this.props.page == 'signup' ? 'current' : 'path'} 
-                        onClick = {() =>this.props.SignOut()}>Log Out</div>
+                        <div className = {this.props.page == 'profile' ? 'current' : 'path'} 
+                        onClick = {() =>this.props.PageLink('profile')} >{this.props.username}</div>
+                        <div className = {this.props.page == 'settings' ? 'current' : 'path'} 
+                        onClick = {() =>this.props.PageLink('settings')}>Settings</div>
                     </div>
                 )}
                 </div>
@@ -43,7 +43,7 @@ import { bindActionCreators } from 'redux';
 const mapStateToProps = state => {
     return{
         page : state.page.page,
-        loading : state.article.loading,
+        loading : state.articles.loading,
         loggedin : state.login.loggedin,
         username : state.login.username
     }

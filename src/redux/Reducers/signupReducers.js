@@ -1,5 +1,5 @@
 import {FETCH_SIGNUP_BEGIN
-    ,FETCH_SIGNUP_FAILS } from '../userType'
+    ,FETCH_SIGNUP_FAILS } from '../Types'
 
     const initialStateSignup = {
         loading : false,

@@ -1,5 +1,5 @@
 import {
-FETCH_LOGIN_BEGIN , FETCH_LOGIN_FAILS , FETCH_LOGIN_SUCCESS  ,FETCH_SIGNOUT_SUCCESS} from '../userType'
+FETCH_LOGIN_BEGIN , FETCH_LOGIN_FAILS , FETCH_LOGIN_SUCCESS  ,FETCH_SIGNOUT_SUCCESS} from '../Types'
 
 const initialStateLogin = {
     loading : false,

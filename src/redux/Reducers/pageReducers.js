@@ -1,7 +1,8 @@
-const { PAGE_LINK } = require("./pageType")
+const { PAGE_LINK , FEED_TYPE } = require("../Types")
 
 const initialState = {
-    page : 'home'
+    page : 'home',
+    feed : 'your'
 }
 
 const pageReducer = (state = initialState , action) => {
@@ -11,6 +12,11 @@ const pageReducer = (state = initialState , action) => {
             ...state,
             page : action.payload
         }
+        case FEED_TYPE : 
+            return {
+                ...state,
+                feed : action.payload
+            }
         default : return state
     }
 }

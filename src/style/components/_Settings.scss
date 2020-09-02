@@ -1,0 +1,65 @@
+.settings{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    // border: solid black;
+    min-width: 400px;
+
+    h1{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+.user_settings{
+    display: flex;
+    flex-direction: column;
+
+    .user_set_div{
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    input{
+        width: 96%;
+        padding: 15px 12px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.2rem;
+        outline-color: $l_main;
+    }
+
+    textarea{
+        width: 96%;
+        padding: 15px 10px;
+        height: 150px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.2rem;
+        outline-color: $l_main;
+    }
+
+}
+
+.user_set_btn{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 200px;
+
+    button{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 20px;
+        border: 1px solid #BDBDBD;
+        font-size: 1.2rem;
+        outline-color: $l_main;
+        cursor: pointer;
+    }
+
+}

@@ -1,4 +1,4 @@
-import {FETCH_SIGNOUT_SUCCESS} from '../userType'
+import {FETCH_SIGNOUT_SUCCESS} from '../Types'
 
  import {loginBegin , loginFail} from './userAction'
 
